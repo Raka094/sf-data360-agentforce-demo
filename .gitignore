@@ -1,0 +1,16 @@
+# Salesforce CLI local state (contains org auth info - never commit)
+.sf/
+.sfdx/
+.localdevserver/
+**/.sfdx/
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Python
+__pycache__/
+*.pyc
+.venv/
+# Logs
+*.log

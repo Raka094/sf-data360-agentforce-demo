@@ -1,0 +1,41 @@
+account_number,name,erp_customer_id,designed_profile
+ACC-0001,Sued Reifen GmbH,ERP-100001,healthy
+ACC-0002,Nord Service GmbH,ERP-100002,healthy
+ACC-0003,Ruhr Logistik GmbH,ERP-100003,healthy
+ACC-0004,Mosel Tyre GmbH,ERP-100004,healthy
+ACC-0005,Spree Tyre GmbH,ERP-100005,declining
+ACC-0006,Saar Tyre GmbH & Co. KG,ERP-100006,healthy
+ACC-0007,Bavaria Auto AG,ERP-100007,healthy
+ACC-0008,Hansa Auto GmbH & Co. KG,ERP-100008,declining
+ACC-0009,Bavaria Tyre GmbH,ERP-100009,declining
+ACC-0010,Weser Tyre GmbH & Co. KG,ERP-100010,declining
+ACC-0011,Bavaria Motors GmbH & Co. KG,ERP-100011,healthy
+ACC-0012,Allgaeu Mobility GmbH,ERP-100012,healthy
+ACC-0013,Saar Auto AG,ERP-100013,gone_quiet
+ACC-0014,Sued Motors GmbH,ERP-100014,healthy
+ACC-0015,Allgaeu Fleet GmbH & Co. KG,ERP-100015,healthy
+ACC-0016,Ruhr Reifen AG,ERP-100016,healthy
+ACC-0017,Bavaria Reifen GmbH & Co. KG,ERP-100017,declining
+ACC-0018,Main Fleet GmbH & Co. KG,ERP-100018,gone_quiet
+ACC-0019,Donau Logistik AG,ERP-100019,gone_quiet
+ACC-0020,Isar Reifen GmbH & Co. KG,ERP-100020,healthy
+ACC-0021,Rhein Tyre GmbH & Co. KG,ERP-100021,declining
+ACC-0022,Weser Mobility AG,ERP-100022,healthy
+ACC-0023,Spree Service AG,ERP-100023,healthy
+ACC-0024,Sued Logistik GmbH,ERP-100024,healthy
+ACC-0025,Harz Logistik AG,ERP-100025,gone_quiet
+ACC-0026,Bavaria Fleet AG,ERP-100026,declining
+ACC-0027,Neckar Reifen AG,ERP-100027,declining
+ACC-0028,Eifel Fleet AG,ERP-100028,gone_quiet
+ACC-0029,Rhein Mobility GmbH,ERP-100029,healthy
+ACC-0030,Bavaria Service GmbH & Co. KG,ERP-100030,gone_quiet
+ACC-0031,Hansa Logistik GmbH,ERP-100031,healthy
+ACC-0032,Harz Tyre GmbH,ERP-100032,healthy
+ACC-0033,Hansa Fleet GmbH,ERP-100033,healthy
+ACC-0034,Taunus Reifen GmbH & Co. KG,ERP-100034,healthy
+ACC-0035,Ruhr Fleet AG,ERP-100035,healthy
+ACC-0036,Hansa Reifen GmbH & Co. KG,ERP-100036,healthy
+ACC-0037,Harz Service GmbH,ERP-100037,gone_quiet
+ACC-0038,Weser Fleet GmbH,ERP-100038,healthy
+ACC-0039,Spree Logistik GmbH & Co. KG,ERP-100039,gone_quiet
+ACC-0040,Saar Fleet GmbH,ERP-100040,healthy

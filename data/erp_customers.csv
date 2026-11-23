@@ -1,0 +1,41 @@
+erp_customer_id,customer_name,website,phone,city,country,crm_account_number
+ERP-100001,Süd Reifen GmbH,https://www.sued-reifen.example,+49 69 4744854,Vienna,AT,ACC-0001
+ERP-100002,Nord Service GmbH,https://www.nord-service.example,+49 69 2571945,Frankfurt,DE,ACC-0002
+ERP-100003,Ruhr Logistik,https://www.ruhr-logistik.example,+49 69 8536477,Cologne,DE,ACC-0003
+ERP-100004,Mosel Tyre GmbH,https://www.mosel-tyre.example,+49 69 4612365,Vienna,AT,ACC-0004
+ERP-100005,SPREE TYRE GMBH,https://www.spree-tyre.example,+49 69 8707870,Vienna,AT,ACC-0005
+ERP-100006,Saar Tyre GmbH & Co. KG,https://www.saar-tyre.example,+49 69 2166941,Berlin,DE,ACC-0006
+ERP-100007,BAVARIA AUTO AG,https://www.bavaria-auto.example,+49 69 8606962,Cologne,DE,ACC-0007
+ERP-100008,Hansa Auto GmbH & Co. KG,https://www.hansa-auto.example,+49 69 5107245,Hamburg,DE,ACC-0008
+ERP-100009,Bavaria Tyre GmbH,https://www.bavaria-tyre.example,+49 69 1538552,Frankfurt,DE,ACC-0009
+ERP-100010,Weser Tyre GmbH&Co KG,https://www.weser-tyre.example,+49 69 9375710,Berlin,DE,ACC-0010
+ERP-100011,Bavaria Motors GmbH & Co. KG,https://www.bavaria-motors.example,+49 69 7700828,Cologne,DE,ACC-0011
+ERP-100012,Allgaeu Mobility,https://www.allgaeu-mobility.example,+49 69 2839607,Munich,DE,ACC-0012
+ERP-100013,Saar Auto,https://www.saar-auto.example,+49 69 8852574,Cologne,DE,ACC-0013
+ERP-100014,Sued Motors GmbH,https://www.sued-motors.example,+49 69 5924115,Zurich,CH,ACC-0014
+ERP-100015,Allgaeu Fleet GmbH&Co KG,https://www.allgaeu-fleet.example,+49 69 6007072,Munich,DE,ACC-0015
+ERP-100016,RUHR REIFEN AG,https://www.ruhr-reifen.example,+49 69 1326765,Zurich,CH,ACC-0016
+ERP-100017,Bavaria Reifen GmbH&Co KG,https://www.bavaria-reifen.example,+49 69 2321324,Berlin,DE,ACC-0017
+ERP-100018,Main Fleet GmbH & Co. KG,https://www.main-fleet.example,+49 69 3770370,Stuttgart,DE,ACC-0018
+ERP-100019,Donau Logistik,https://www.donau-logistik.example,+49 69 7264956,Vienna,AT,ACC-0019
+ERP-100020,Isar Reifen & Co. KG,https://www.isar-reifen.example,+49 69 4694634,Berlin,DE,ACC-0020
+ERP-100021,RHEIN TYRE GMBH & CO. KG,https://www.rhein-tyre.example,+49 69 4993055,Munich,DE,ACC-0021
+ERP-100022,Weser Mobility,https://www.weser-mobility.example,+49 69 7829332,Berlin,DE,ACC-0022
+ERP-100023,Spree Service,https://www.spree-service.example,+49 69 1908841,Cologne,DE,ACC-0023
+ERP-100024,Sued Logistik GmbH,https://www.sued-logistik.example,+49 69 9997381,Berlin,DE,ACC-0024
+ERP-100025,Harz Logistik AG,https://www.harz-logistik.example,+49 69 2642635,Munich,DE,ACC-0025
+ERP-100026,Bavaria Fleet AG,https://www.bavaria-fleet.example,+49 69 9075854,Cologne,DE,ACC-0026
+ERP-100027,Neckar Reifen,https://www.neckar-reifen.example,+49 69 8633773,Cologne,DE,ACC-0027
+ERP-100028,EIFEL FLEET AG,https://www.eifel-fleet.example,+49 69 4652414,Berlin,DE,ACC-0028
+ERP-100029,RHEIN MOBILITY GMBH,https://www.rhein-mobility.example,+49 69 9519948,Hamburg,DE,ACC-0029
+ERP-100030,Bavaria Service & Co. KG,https://www.bavaria-service.example,+49 69 5130808,Munich,DE,ACC-0030
+ERP-100031,Hansa Logistik GmbH,https://www.hansa-logistik.example,+49 69 5456272,Zurich,CH,ACC-0031
+ERP-100032,Harz Tyre GmbH,https://www.harz-tyre.example,+49 69 8688755,Munich,DE,ACC-0032
+ERP-100033,Hansa Fleet,https://www.hansa-fleet.example,+49 69 5098412,Zurich,CH,ACC-0033
+ERP-100034,TAUNUS REIFEN GMBH & CO. KG,https://www.taunus-reifen.example,+49 69 2737893,Vienna,AT,ACC-0034
+ERP-100035,RUHR FLEET AG,https://www.ruhr-fleet.example,+49 69 4533779,Vienna,AT,ACC-0035
+ERP-100036,Hansa Reifen-Handel GmbH & Co. KG,https://www.hansa-reifen.example,+49 69 8106422,Munich,DE,ACC-0036
+ERP-100037,Harz Service GmbH,https://www.harz-service.example,+49 69 2262382,Frankfurt,DE,ACC-0037
+ERP-100038,Weser Fleet,https://www.weser-fleet.example,+49 69 1701771,Cologne,DE,ACC-0038
+ERP-100039,Spree Logistik & Co. KG,https://www.spree-logistik.example,+49 69 2724590,Berlin,DE,ACC-0039
+ERP-100040,Saar Fleet GmbH,https://www.saar-fleet.example,+49 69 3970445,Berlin,DE,ACC-0040
