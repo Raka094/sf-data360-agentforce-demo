@@ -230,12 +230,12 @@ Crop out your org URL and username.
 
 | File | Where to find it |
 |---|---|
-| `01-data-streams.png` | Data Cloud → **Connect & Unify → Data Streams**. All 3 streams should show **Success** (use *Refresh Now* first) |
+| `01-data-streams.png` (optional) | Data Cloud → **Connect & Unify → Data Streams**, only once all 3 show **Success**. If refreshes keep failing, use the record-count table in the README instead (as the reference build does) |
 | `02-identity-resolution.png` | **Connect & Unify → Identity Resolution → Account Unification** |
 | `02b-data-model.png` | **Connect & Unify → Data Model → Customer_Order → Relationships** tab (shows N:1 to ERP_Customer). Alternative: the orders.csv stream → **Review Mappings** canvas |
 | `03-calculated-insight.png` | **Analyze & Predict → Calculated Insights → Account_Health** → Edit → **Preview Insight** (40 rows) — or the **Output** tab |
 | `04-apex-tests.png` | Terminal output of the `sf apex run test` command (Win + Shift + S to capture) |
-| `05-agent-config.png` | Agentforce Builder → the **At-Risk Account Outreach** subagent (instructions + action) |
+| `05-agent-config.png` (optional) | Agentforce Builder → **Agent Definition** diagram. The reference build documents the config as code in `docs/agent/agent-script.md` instead |
 | `06-agent-answer.png` | Agentforce Builder → **Preview** with the answer to the main question |
 
 ### GitHub

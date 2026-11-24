@@ -108,7 +108,7 @@ public with sharing class AtRiskAccountService {
         if (a.daysSinceLastOrder != null && a.daysSinceLastOrder >= DAYS_QUIET_THRESHOLD) {
             a.reasons.add('No order for ' + a.daysSinceLastOrder + ' days');
         }
-        if (a.revenuePrev90d != null && a.revenuePrev90d > 0 && a.revenueLast90d != null) {
+        If (a.reasons.isEmpty() && a.revenuePrev90d!= null && a.revenuePrev90d > 0 && a.revenueLast90d!= null) {
             Decimal change = (a.revenueLast90d - a.revenuePrev90d) / a.revenuePrev90d;
             if (change <= -DROP_THRESHOLD) {
                 a.reasons.add('Revenue down ' + Math.abs((change * 100).setScale(0)) + '% vs previous 90 days');

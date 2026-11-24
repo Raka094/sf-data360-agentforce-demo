@@ -83,17 +83,49 @@ Thresholds are constants in `AtRiskAccountService.cls`.
 - **Synthetic data only.** `scripts/generate_sample_data.py` creates realistic but fake data, plus an
   answer key to verify the agent's output.
 
+## Data sources
+
+| Source | System | Lands in Data Cloud as | Records |
+|---|---|---|---|
+| `Account` | Salesforce CRM (connector) | Account DMO | 40 |
+| `erp_customers.csv` | ERP export (file upload) | `ERP_Customer` (custom, Profile) | 40 |
+| `orders.csv` | ERP export (file upload) | `Customer_Order` (custom, Engagement) | 1,325 |
+
+Record counts were checked in Data Cloud Query Editor (queries in
+[docs/datacloud/check_queries.sql](docs/datacloud/check_queries.sql)). All data is synthetic.
+
 ## Screenshots
 
-| | |
-|---|---|
-| Data streams | ![](docs/screenshots/01-data-streams.png) |
-| Identity resolution ruleset | ![](docs/screenshots/02-identity-resolution.png) |
-| Data model (Customer_Order → ERP_Customer) | ![](docs/screenshots/02b-data-model.png) |
-| Calculated insight | ![](docs/screenshots/03-calculated-insight.png) |
-| Apex tests + coverage | ![](docs/screenshots/04-apex-tests.png) |
-| Agent subagent + action | ![](docs/screenshots/05-agent-config.png) |
-| Agent answering | ![](docs/screenshots/06-agent-answer.png) |
+### 1. The agent answering the question
+The trace shows the router picking the **At-Risk Account Outreach** subagent, calling the Apex
+action with `maxResults=5` and `onlyMyAccounts=false`, and displaying the ranked result.
+
+![Agent answer with trace](docs/screenshots/06-agent-answer.png)
+
+The agent's configuration (subagent, instructions, action wiring) is in
+[docs/agent/agent-script.md](docs/agent/agent-script.md).
+
+### 2. Calculated Insight `Account_Health__cio`
+One dimension (account number) and four metrics, last run Success.
+
+![Calculated insight](docs/screenshots/03-calculated-insight.png)
+
+### 3. Data model
+`Customer_Order` linked many-to-one to `ERP_Customer` on `erp_customer_id`. `ERP_Customer` carries
+the CRM account number, which is how orders reach CRM accounts.
+
+![Data model relationship](docs/screenshots/02b-data-model.png)
+
+### 4. Identity resolution on Account
+Two match rules (Name + Address **OR** Phone): 80 source profiles → 74 unified (8%).
+See "Design decisions" for why the insight uses an exact key instead.
+
+![Identity resolution](docs/screenshots/02-identity-resolution.png)
+
+### 5. Apex unit tests
+All tests pass.
+
+![Apex tests](docs/screenshots/04-apex-tests.png)
 
 ## Repo structure
 
@@ -110,6 +142,7 @@ force-app/main/default/
 data/                             # generated sample data
 docs/
   BUILD_GUIDE.md                  # full step-by-step setup
+  agent/agent-script.md           # Agentforce agent configuration (subagent + action)
   datacloud/                      # calculated insight SQL + check queries
   screenshots/
 scripts/
