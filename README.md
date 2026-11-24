@@ -6,8 +6,7 @@ A sales rep asks the agent: **"Which at-risk accounts should I call this week?"*
 The agent answers with a ranked list, the reason each account is at risk, and the revenue at stake,
 using order history that does **not** live in Salesforce CRM.
 
-> 🎥 Demo video: _add link here_
->
+
 > **Status:** working end to end in a Salesforce Developer Edition org (Nov 2026). The agent returns the
 > 16 accounts that the sample data was designed to put at risk, with no false alarms.
 
